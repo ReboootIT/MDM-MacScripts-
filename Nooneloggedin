@@ -1,0 +1,12 @@
+
+
+#!/bin/bash
+
+## Check noone logged in 
+
+if [ "$currentuser" != "root" ]; then
+## Do your adds and remove stuff here
+else
+   echo "No-one is logged in. Exiting..."
+   exit 0
+fi
